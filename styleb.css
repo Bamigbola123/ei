@@ -52,20 +52,21 @@ nav > img {
     color:aquamarine
 }
 
-.location {
+.location{
+    border-radius: 5px;
     width: 40%;
-    height: 100%;
-    text-align: center;
-    background-color: #ffffff;
-  
+    height: 10px;
+    position: center;
 }
 
-.ilocation {
-    border-radius: 500px;
-    text-align: center;
-}
 
+input[type=text] :focus {
+    border: 3px solid #555;
+}
 
 footer {
     text-align: center;
 }
+
+
+
