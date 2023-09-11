@@ -71,7 +71,7 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 48px;
+    gap: 20px;
     margin: 0 auto;
     max-width: 720px;
     padding: 16px;
