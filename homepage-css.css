@@ -217,9 +217,74 @@ menu li a{
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
 
-    .logo1{
+    .navbar{
+        width: 100%;
+        height: 15px;
+
+    }
+
+    .logo111{
+        size: 25px;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .main-card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        padding: 0%;
+        align-items: center;
+
+    }
+
+    input{
+        display: none;
+    }
+
+    img{
+        padding: 20px;
+        margin: 0%;
+    }
+
+    h2{
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    h3{
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    button{
+        width: 60px;
+        height: 50px;
+    }
+
+    footer{
+        width: 370px;
+    }
+
+    menu{
+        font-size: small;
+    }
+
+    .footer-bottom{
+        font-size: 9px;
+    }
+
+    /* .logo1{
         display: none;
         margin-top: 16px;
         width: auto;
@@ -266,6 +331,14 @@ menu li a{
         text-decoration: solid;
     }
 
+
+    .card{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     input{
         display: none;
         margin-top: 100px;
@@ -274,6 +347,6 @@ menu li a{
         height: 50px;
         margin-left: 400px;
         text-align: center;
-    }
+    } */
 
 }
