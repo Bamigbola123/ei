@@ -105,6 +105,7 @@ display: grid;
     /* margin-left: -40px;
     margin-right: 40px; */
     border-radius: inherit;
+    border-radius: 5px;
 }
 
 h2, h3 {
@@ -252,6 +253,7 @@ menu li a{
     .piccc{
         align-items: center;
         align-content: center;
+        border-radius: 5px;
     }
 
     input{
