@@ -85,13 +85,7 @@ input[type=text] :focus {
     column-gap: 50px;
     border-radius: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(
-        -140deg,
-        #000000,
-        #72636c,
-        #a7a7a7,
-        #555
-    );
+    background-color: #72636c;
     margin-top: 30px;
 }
 
@@ -283,12 +277,12 @@ menu li a{
         column-gap: 20px;
         border-radius: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background: linear-gradient(
-            -140deg,
-            #000000,
-            #72636c,
-            #a7a7a7,
-            #555
-        );
+        background-color: #72636c;
         margin-top: 30px;
     }
+
+    button{
+        font-size: small;
+    }
+
+}
