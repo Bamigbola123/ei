@@ -281,8 +281,12 @@ menu li a{
         margin-top: 30px;
     }
 
-    button{
+    .buttons{
         font-size: small;
+        border-color: #000000;
+        background-color: #555;
+        align-content: center;
+        text-align: center;
     }
 
 }
