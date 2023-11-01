@@ -87,11 +87,18 @@ input[type=text] :focus {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #72636c;
     margin-top: 30px;
+    border-color: white;
 }
 
-.first-container.main-container{
-    border-color: #000000;
+.first-container .main-container{
+    border-color: white;
     border-radius: 12px;
+}
+
+
+.main-container{
+    background-color: white;
+
 }
 
 .img-container{
@@ -108,6 +115,7 @@ input[type=text] :focus {
 
 .content-container{
     font-size: 15px;
+    margin-left: 15px;
 }
 
 .name {
